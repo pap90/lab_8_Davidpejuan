@@ -57,7 +57,7 @@ public class administrarclientes {
                     while ((temp = (clientes) objeto.readObject()) != null) {
                         listaclientes.add(temp);
                     }
-                } catch (EOFException e) {
+                } catch (EOFException e) { 
 
                 }
                 objeto.close();
