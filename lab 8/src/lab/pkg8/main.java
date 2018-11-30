@@ -522,6 +522,7 @@ public class main extends javax.swing.JFrame {
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         // TODO add your handling code here:
+        jRadioButton2.setSelected(true);
         jd_crearcliente.setModal(true);
         jd_crearcliente.pack();
         jd_crearcliente.setLocationRelativeTo(this);
