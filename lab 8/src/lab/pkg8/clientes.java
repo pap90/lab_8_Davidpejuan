@@ -80,7 +80,7 @@ public class clientes implements Serializable{
 
     @Override
     public String toString() {
-        return "clientes{" + "nombre=" + nombre + ", apellido=" + apellido + ", tarjeta=" + tarjeta + ", pago_tar=" + pago_tar + ", billetera=" + billetera + ", recibos=" + recibos + '}';
+        return nombre;
     }
     
     

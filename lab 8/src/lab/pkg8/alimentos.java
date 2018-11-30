@@ -5,15 +5,19 @@
  */
 package lab.pkg8;
 
+import java.io.Serializable;
+
 /**
  *
  * @author david
  */
-public class alimentos {
+public class alimentos implements Serializable{
     private String nombre;
     private int tiempo;
     private int precio;
     private int cantidad;
+    
+    private static final long SerializableVersionUID=666L;
 
     public alimentos(String nombre, int tiempo, int precio, int cantidad) {
         this.nombre = nombre;

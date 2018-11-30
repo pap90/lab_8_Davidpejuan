@@ -24,6 +24,11 @@ public class clientes_unitec extends clientes{
     public void setNumerocuenta(int numerocuenta) {
         this.numerocuenta = numerocuenta;
     }
+
+    @Override
+    public String toString() {
+        return super.getNombre();
+    }
     
     
 }
